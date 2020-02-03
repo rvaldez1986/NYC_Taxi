@@ -14,7 +14,7 @@ For this particular exercise we process the NYC Taxi data using Google Big Query
 
 <h3>New York Nightlife Data</h3>
 
-<p style='text-align: justify;'>The city of New York offers open access to data of taxi trips in the city. This data include fields capturing pick-up and drop-off dates/times, pick-up and drop-off locations, trip distances, itemized fares, rate types, payment types, and driver-reported passenger counts.</p>  
+<p style='text-align: justify;'>The city of New York through Taxi & Limousine Commission, offers open access to data of taxi trips in the city. This data include fields capturing pick-up and drop-off dates/times, pick-up and drop-off locations, trip distances, itemized fares, rate types, payment types, and driver-reported passenger counts.</p>  
     
 <p style='text-align: justify;'>In this study we will analyze the nightlife movement on the Brooklyn Carroll Gardens - Cobble Hill neighborhood. For this we extract data from pick-up locations in the area (from 12pm to 4 am) and plot it using a heatmap with red colors representing the number of pick-ups per area. The resulting image, displayed on Google maps is as follows:
 <br>
