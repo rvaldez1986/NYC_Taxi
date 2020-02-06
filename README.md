@@ -18,11 +18,10 @@ For this particular exercise we process the NYC Taxi data using Google Big Query
     
 <p style='text-align: justify;'>In this study we will analyze the nightlife movement on the Brooklyn Carroll Gardens - Cobble Hill neighborhood. For this we extract data from pick-up locations in the area (from 12pm to 4 am) and plot it using a heatmap with red colors representing the number of pick-ups per area. The resulting image, displayed on Google maps is as follows:
 <br>
-<br>
 </p>
 
 <div>    
-<img src="Images/img1.jpg" width="400" align="middle"/>
+<img src="Images/img1.jpg" width="400"/>
 </div>
 
 <p style='text-align: justify;'><br> The data shows us how late pick-ups are mainly concentrated on avenues rather than streets but there is no clear pattern on a preference regarding locations. TTo see if this data can help us answer which bars are trending based on late pick-ups, we are going to use the monthly average from the number of passengers requesting a nightly pick-up in a 40 meter radius (80 meters is the average length of a NYC block) from the bar. </p>
