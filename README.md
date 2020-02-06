@@ -46,11 +46,13 @@ For this task we envision a program that would use the coordinates of the select
 <img src="Images/img3.jpg" width="400"/>
 </div>
 
-<p style='text-align: justify;'><br>This information can be summarized and returned to the user using the the following table:</p>
+<p style='text-align: justify;'><br>This information can be summarized and returned to the user.  using the the following table:</p>
     
 <div>    
 <img src="Images/img42.png" width="400"/>
 </div>
+
+<p style='text-align: justify;'><br>For the selected bars, This information can be summarized and returned to the user using the the following table:</p>
 
 
 ### Contents
