@@ -22,7 +22,7 @@ For this particular exercise we process the NYC Taxi data using Google Big Query
 </p>
 
 <div>    
-<img src="Images/img1.jpg" width="400" align="right"/>
+<img src="Images/img1.jpg" width="400" align="middle"/>
 </div>
 
 <p style='text-align: justify;'><br> The data shows us how late pick-ups are mainly concentrated on avenues rather than streets but there is no clear pattern on a preference regarding locations. TTo see if this data can help us answer which bars are trending based on late pick-ups, we are going to use the monthly average from the number of passengers requesting a nightly pick-up in a 40 meter radius (80 meters is the average length of a NYC block) from the bar. </p>
