@@ -37,7 +37,7 @@ For this particular exercise we process the NYC Taxi data using Google Big Query
 * <a href="https://www.google.com/search?rlz=1C1CHBF_enUS831US831&tbm=lcl&sxsrf=ACYBGNTF3PqX1DX8c7ihrIWwx0K307-5Gg%3A1580748985806&ei=uVA4XuvjMLeLytMPuceJ2AE&q=bar+great+harry+brooklyn+ny&oq=Bar+Great+Harry&gs_l=psy-ab.1.0.35i39k1j0i203k1l4j0i22i30k1l5.83702.83702.0.84780.1.1.0.0.0.0.111.111.0j1.1.0....0...1c.1.64.psy-ab..0.1.111....0.NNtWGE3zNEw#rlfi=hd:;si:13472151412096889379;mv:[[40.68262647731903,-73.9933432675058],[40.68226652268097,-73.9938179324942]]">Bar Great Harry</a>
 * <a href="https://www.google.com/search?rlz=1C1CHBF_enUS831US831&tbm=lcl&sxsrf=ACYBGNReiCDOpuMYfVnsp-DleKQooKfkaQ%3A1580749071483&ei=D1E4XsOQHaCrytMPiduKQA&q=brooklyn+social+bar&oq=Brooklyn+Social+Bar&gs_l=psy-ab.1.0.0i203k1j0i22i30k1l2.13795.13795.0.15941.1.1.0.0.0.0.94.94.1.1.0....0...1c.1.64.psy-ab..0.1.93....0.vf12K-otrco#rlfi=hd:;si:9880056182397694822;mv:[[40.68062607731904,-73.9942532746282],[40.680266122680976,-73.99472792537178]]">Brooklyn Social Bar</a>
 
-For this task we envision a program that would use the coordinates of the selected bars and use the score based on the average monthly late pick-ups, described above to obtain a popularity index. The score is ajusted for other bars that co-exist in the same radius (caclulating the intersection area of two or more circles). In the example of the then bars selected, the popularit index scores are displayed on a google map using a heatmap color structure:
+For this task we envision a program that would use the coordinates of the selected bars and use the score based on the average monthly late pick-ups, described above to obtain a popularity index. The score is ajusted for other bars that co-exist in the same radius (caclulating the intersection area of two or more circles). In the example of the then bars selected, the popularit index scores are plotted on a google map using a heatmap color structure:
 <br>
 <br>
 </p>
@@ -52,7 +52,11 @@ For this task we envision a program that would use the coordinates of the select
 <img src="Images/img42.png" width="400"/>
 </div>
 
-<p style='text-align: justify;'><br>For the selected bars, This information can be summarized and returned to the user using the the following table:</p>
+<p style='text-align: justify;'><br>An interesting takeaway from this analysis is the correlation matrix between this types of ratings: </p>
+
+
+
+
 
 
 ### Contents
