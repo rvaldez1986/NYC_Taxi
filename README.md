@@ -52,7 +52,8 @@ For this task we envision a program that would use the coordinates of the select
 <img src="Images/img43.png" width="400"/>
 </div>
 
-<p style='text-align: justify;'><br>An interesting takeaway from this analysis is the correlation matrix between this types of ratings: </p>
+<p style='text-align: justify;'><br>An interesting takeaway from this analysis is the correlation matrix between this 
+    types of ratings: </p>
 
 <div>    
 <img src="Images/imgT1.png" width="300"/>
