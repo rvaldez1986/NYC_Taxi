@@ -59,10 +59,14 @@ For this task we envision a program that would use the coordinates of the select
 <img src="Images/imgT1.png" width="300"/>
 </div>
 
+<p style='text-align: justify;'><br>The **negative correlation** between the popularity index and the average rating suggest that 
+    maybe when choosing a place we should go more from the amount of people who rate it than the actual rating it receives. </p>
 
 
 
-### Contents
+
+
+# Contents
 
 This repository contains:
 
