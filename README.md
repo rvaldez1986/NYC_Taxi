@@ -49,7 +49,7 @@ For this task we envision a program that would use the coordinates of the select
 <p style='text-align: justify;'><br>The results along with Google’s number of review and average ratings and are displayed in the following table:</p>
     
 <div>    
-<img src="Images/img43.png" width="500"/>
+<img src="Images/img43.png" width="400"/>
 </div>
 
 <p style='text-align: justify;'><br>An interesting takeaway from this analysis is the correlation matrix between this types of ratings: </p>
