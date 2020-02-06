@@ -25,7 +25,7 @@ For this particular exercise we process the NYC Taxi data using Google Big Query
 <img src="Images/img1.jpg" width="400"/>
 </div>
 
-<p style='text-align: justify;'><br> The data shows us how late pick-ups are mainly concentrated on avenues rather than streets but there is no clear pattern on a preference regarding locations. To see if this data can help us answer wich bars are trending based on late pick-ups, we are going to use the monthly average from the number of nightly pickups in a 40 meter radius (80 meters is the average length of a NYC block), considering passenger count.</p>  
+<p style='text-align: justify;'><br> The data shows us how late pick-ups are mainly concentrated on avenues rather than streets but there is no clear pattern on a preference regarding locations. To see if this data can help us answer which bars are trending based on late pick-ups, we are going to use the monthly average from the number of nightly pickups in a 40 meter radius (80 meters is the average length of a NYC block), considering passenger count.</p>  
  
 <p style='text-align: justify;'>Thinking practically, lets suppose a person wants to go out in the Brooklyn-Carroll neighborhood, and wants to see what bars are trending. For this pourpose, selects 10 bars and wants to rate them using this data. In this example the selected bars are:
 
