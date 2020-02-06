@@ -52,14 +52,14 @@ For this task we envision a program that would use the coordinates of the select
 <img src="Images/img43.png" width="400"/>
 </div>
 
-<p style='text-align: justify;'><br>An interesting takeaway from this analysis is the correlation matrix between this 
+<p style='text-align: justify;'><br>An interesting takeaway from this analysis is the correlation matrix between these 
     types of ratings: </p>
 
 <div>    
 <img src="Images/imgT1.png" width="300"/>
 </div>
 
-<p style='text-align: justify;'><br>The <strong>negative correlation</strong> between the popularity index and the average rating leads us to wonder if when choosing a place we should trust more the amount of people who rate it than the actual rating it receives. </p>
+<p style='text-align: justify;'><br>The <strong>negative correlation</strong> between the popularity index and the average rating leads us to wonder if when choosing a place we should trust more the amount of people who rate it than the actual rating it receives.<br><br> </p>
 
 
 
