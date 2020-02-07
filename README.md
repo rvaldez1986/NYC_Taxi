@@ -2,13 +2,13 @@
 
 ### About
 
-My project proposal is a web page that aggregates the available information on NYC nightlife that exists in the web and that uses modern data visualization and machine learning techniques to provide the user (in this case a person or group planning his night out) with the exact information they require. This includes information on trending places by neighborhood (where people are actually going), an inhouse ranking of bars and nightclubs based on a weighted average of different ratings and rankings across the web, personalized suggestions using a recommender system, etc.
+My project proposal is a to construct an aggregator of the available NYC nightlife data and use machine learning to organize, summarize and provide useful, current and personalized insights on what New York City has to offer. The offered products include (data based, aggregated) rakings of what is trending and what is not, fact checkers for published rankings and personalized suggestions based on previous ratings.  The data I am going to use for the project are ratings, rankings and mentions in social networks combined with location data.
 
-For this particular exercise we process the NYC Taxi data using Google Big Query and see if an exploratory analysis can help answer wich bars are trending based on pick-ups. 
+In these particular exercise I analyzed 18 gigabytes of NYC Taxi trip record data stored in Google’s Big Query data warehouse and i evaluated how location data can translate into ratings for bars and how these ratings compare to the information that is already provided in the form of ratings. 
 
 <h3><center>Using Geolocation Taxi Data</center></h3>
 
-<p style='text-align: justify;'>Geolocation data contains information of the location from an electronic device, stored in terms of its latitude and logitude. In this document we are going to work with geolocation taxi data and show how it can be used for a variety of pourposes different from what it was originally conceived for.</p> 
+<p style='text-align: justify;'>Geolocation data contains information of the location from an electronic device, stored in terms of its latitude and logitude. In this document I aM going to work with geolocation taxi data and show how it can be used for a variety of pourposes different from what it was originally conceived for.</p> 
 
 <p style='text-align: justify;'>We are going to foccuss initially on data from New York City. We are going to display the data on a Google map using the JavaScript API. More information on how to retrieve this data can be found on <a href="https://console.cloud.google.com/marketplace/details/city-of-new-york/nyc-tlc-trips">NYC TLC Trips</a>. Information on how to use Google's API for customizing maps and diplaying them can be found on: <a href="https://developers.google.com/maps/documentation/javascript/tutorial">Google API</a> </p>
 
@@ -16,7 +16,7 @@ For this particular exercise we process the NYC Taxi data using Google Big Query
 
 <p style='text-align: justify;'>The city of New York through the Taxi & Limousine Commission, offers open access to data of taxi trips in the city. This data include fields capturing pick-up and drop-off dates/times, pick-up and drop-off locations, trip distances, itemized fares, rate types, payment types, and driver-reported passenger counts.</p>  
     
-<p style='text-align: justify;'>In this study we will analyze the nightlife movement on the Brooklyn Carroll Gardens - Cobble Hill neighborhood. For this we extract data from pick-up locations in the area (from 12pm to 4 am) and plot it using a heatmap with red colors representing the number of pick-ups per area. The resulting image, displayed on Google maps is as follows:
+<p style='text-align: justify;'>In this study I will foccus on the nightlife movement on the Brooklyn Carroll Gardens - Cobble Hill neighborhood. For this I extracted data from pick-up locations in the area (from 12pm to 4 am) and plot it using a heatmap with red colors representing the number of pick-ups per area. The resulting image, displayed on Google maps is as follows:
 <br>
 </p>
 
@@ -24,7 +24,7 @@ For this particular exercise we process the NYC Taxi data using Google Big Query
 <img src="Images/img1.jpg" width="400"/>
 </div>
 
-<p style='text-align: justify;'><br> The data shows us how late pick-ups are mainly concentrated on avenues rather than streets but there is no clear pattern on a preference regarding locations. TTo see if this data can help us answer which bars are trending based on late pick-ups, we are going to use the monthly average from the number of passengers requesting a nightly pick-up in a 40 meter radius (80 meters is the average length of a NYC block) from the bar. </p>
+<p style='text-align: justify;'><br> The data shows us how late pick-ups are mainly concentrated on avenues rather than streets but there is no clear pattern on a preference regarding locations. TTo see if this data can help us answer which bars are trending based on late pick-ups, I am going to use the monthly average from the number of passengers requesting a nightly pick-up in a 40 meter radius (80 meters is the average length of a NYC block) from the bar. </p>
  
 <p style='text-align: justify;'>Thinking practically, lets suppose a person wants to go out in the Brooklyn-Carroll neighborhood, and wants to see what bars are trending. For this pourpose, selects 8 bars in a given street and wants to rate them using this data. In this example the selected bars are:
 
