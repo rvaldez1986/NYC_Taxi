@@ -52,14 +52,13 @@ For this task we envision a program that would use the coordinates of the select
 <img src="Images/img43.png" width="400"/>
 </div>
 
-<p style='text-align: justify;'><br>An interesting takeaway from this analysis is the correlation matrix between these 
-    types of ratings: </p>
+<p style='text-align: justify;'><br>The main finding from this analysis is captured by the correlation matrix between Googles information and my popularity index: </p>
 
 <div>    
 <img src="Images/imgT1.png" width="300"/>
 </div>
 
-<p style='text-align: justify;'><br>The <strong>negative correlation</strong> between the popularity index and the average rating leads us to wonder if when choosing a place we should trust more the amount of people who rate it than the actual rating it receives.<br><br> <br><br></p>
+<p style='text-align: justify;'><br>Noticing the results and specially the <strong>negative correlation</strong> between the popularity index and the average rating, makes me wonder if for measuring the popularity of a bar we should trust more the amount of people who rate it than the actual rating it receives. <br><br> <br><br></p>
 
 
 
